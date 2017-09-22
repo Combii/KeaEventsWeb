@@ -1,0 +1,15 @@
+{
+  "name": "KeaEventsWeb",
+  "version": "0.0.1",
+  "dependencies": {
+    "@types/express": "^4.0.37"
+  },
+  "devDependencies": {
+    "express": "^4.15.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Combii/Dotnet-MVC-Udemy"
+  }
+
+}

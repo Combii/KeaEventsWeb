@@ -1,5 +1,9 @@
 const express = require('express');
-var path = require("path");
+const path = require("path");
+require('hbs');
+const dateFormat = require('dateformat');
+const now = new Date();
+
 
 const app = express();
 
@@ -16,7 +20,9 @@ app.get('/contact', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.send('<h1>About KEA</h1>');
+    res.render(path.resolve(__dirname, '../public/about.hbs'), {
+        date: dateFormat(now, "dddd d. mmmm, yyyy")
+    });
 });
 
 app.listen(3000);

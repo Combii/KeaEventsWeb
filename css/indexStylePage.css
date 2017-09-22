@@ -1,0 +1,117 @@
+.wrapper {
+    position: static;
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.container {
+    height: 1000px;
+    margin-top: 72px;
+}
+
+.child_01 {
+    position: static;
+    display: block;
+    height: 30px;
+    float: none;
+    clear: both;
+}
+
+.child_02 {
+    display: block;
+    width: 90%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.child_03 {
+    text-align: center;
+}
+
+.child_04 {
+    position: relative;
+    left: 20%;
+    display: block;
+    width: 30%;
+    height: 500px;
+    float: left;
+    clear: none;
+}
+
+.child_05 {
+    position: relative;
+    right: 20%;
+    display: block;
+    width: 30%;
+    height: 500px;
+    float: right;
+    clear: none;
+}
+
+.child_06 {
+    height: 50px;
+    clear: both;
+}
+
+html * {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.textFormat {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+p {
+    margin: 0
+}
+
+.toTheLeft {
+    float: left;
+}
+
+button {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Arial;
+    color: #292929;
+    font-size: 20px;
+    background: #e0e0e0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#videoblock {
+    position: relative;
+    left: 10%;
+}
+
+.imageStyleSize {
+    width: 150px;
+    height: 100px;
+    padding: 5px 16px;
+}
+
+.imageStyleCrossSize {
+    width: 120px;
+    height: 90px;
+}

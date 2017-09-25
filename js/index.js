@@ -7,7 +7,6 @@ const now = new Date();
 
 const app = express();
 
-app.use(express.static(path.resolve(__dirname, '../public/Home')));
 app.use(express.static(path.resolve(__dirname, '../public/')));
 
 
@@ -27,3 +26,4 @@ app.get('/about', (req, res) => {
 
 app.listen(3000);
 
+console.log("Listen on 3000");
